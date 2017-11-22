@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: adf7edab0ad3f4b979845134ad3c0fa3, type: 3}
+  m_Name: TrimmerAssetsManifest
+  m_EditorClassIdentifier: 
+  entries:
+  - type: 1
+    references:
+    - {fileID: 2800000, guid: 8677bb0860acc45879d212dfac44a0bb, type: 3}
+    - {fileID: 2800000, guid: f9278ba68053d4474a9e233a63c6c606, type: 3}
+    - {fileID: 2800000, guid: f25d88b820e354bdabf1fcd2e6bc44fc, type: 3}
+    - {fileID: 2800000, guid: 6bde761f4720c439787b4cb4271e9232, type: 3}
+  - type: 0
+    references:
+    - {fileID: 2800000, guid: 97aa04f21e5ff49dd8741213c5c2dd5c, type: 3}
+    - {fileID: 2800000, guid: fdf1b145424c5472fb4e0632196a778e, type: 3}
+    - {fileID: 2800000, guid: 2e0b2fdcc58354711b5ca9bb4050d472, type: 3}

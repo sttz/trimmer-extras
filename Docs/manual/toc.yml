@@ -1,0 +1,17 @@
+- name: Using Trimmer
+  href: using_trimmer.md
+- name: Creating Options
+  href: creating_options.md
+- name: Bundled Options
+  href: bundled_options.md
+  items:
+  - name: Build Settings
+    href: bundled/build_settings.md
+  - name: Ini File
+    href: bundled/ini_file.md
+  - name: Prompt
+    href: bundled/prompt.md
+  - name: Version
+    href: bundled/version.md
+  - name: Xcode
+    href: bundled/xcode.md

@@ -1,0 +1,224 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d879b2c0889bc42ca8316c46eeecbed7, type: 3}
+  m_Name: Test
+  m_EditorClassIdentifier: 
+  store:
+    serializedRootNodes:
+    - name: Dummy
+      value: no
+      numVariants: 0
+      numChildren: 0
+      inclusion: 0
+    - name: ParentDummy
+      value: no
+      numVariants: 0
+      numChildren: 4
+      inclusion: 0
+    - name: VariantDummy
+      value: 
+      numVariants: 2
+      numChildren: 0
+      inclusion: 0
+    - name: Prompt
+      value: yes
+      numVariants: 0
+      numChildren: 6
+      inclusion: 0
+    - name: BuildOnlyDummy
+      value: no
+      numVariants: 0
+      numChildren: 0
+      inclusion: 0
+    - name: EditModeDummy
+      value: no
+      numVariants: 0
+      numChildren: 0
+      inclusion: 0
+    - name: IniFile
+      value: wb.ini
+      numVariants: 0
+      numChildren: 1
+      inclusion: 0
+    - name: BuildSettings
+      value: None
+      numVariants: 0
+      numChildren: 2
+      inclusion: 0
+    - name: Simple
+      value: no
+      numVariants: 0
+      numChildren: 0
+      inclusion: 1
+    - name: OptionBuildSettings
+      value: 
+      numVariants: 0
+      numChildren: 0
+      inclusion: 0
+    - name: OptionIniFile
+      value: wb.ini
+      numVariants: 0
+      numChildren: 0
+      inclusion: 0
+    - name: OptionPrompt
+      value: no
+      numVariants: 0
+      numChildren: 0
+      inclusion: 0
+    - name: OptionBuildOnlyDummy
+      value: no
+      numVariants: 0
+      numChildren: 0
+      inclusion: 0
+    - name: OptionDummy
+      value: no
+      numVariants: 0
+      numChildren: 0
+      inclusion: 0
+    - name: OptionEditModeDummy
+      value: no
+      numVariants: 0
+      numChildren: 0
+      inclusion: 0
+    - name: OptionParentDummy
+      value: no
+      numVariants: 0
+      numChildren: 0
+      inclusion: 0
+    - name: OptionSimple
+      value: no
+      numVariants: 0
+      numChildren: 0
+      inclusion: 0
+    - name: OptionVariantDummy
+      value: 
+      numVariants: 1
+      numChildren: 0
+      inclusion: 0
+    - name: FloatDummy
+      value: 1
+      numVariants: 0
+      numChildren: 0
+      inclusion: 0
+    - name: Xcode
+      value: 
+      numVariants: 0
+      numChildren: 0
+      inclusion: 0
+    - name: Version
+      value: 
+      numVariants: 0
+      numChildren: 3
+      inclusion: 1
+    - name: Reference
+      value: 
+      numVariants: 0
+      numChildren: 0
+      inclusion: 0
+    serializedNodes:
+    - name: Child2
+      value: 
+      numVariants: 2
+      numChildren: 0
+    - name: Child1
+      value: 
+      numVariants: 0
+      numChildren: 0
+    - name: ParentDummyChild1
+      value: 
+      numVariants: 0
+      numChildren: 0
+    - name: ParentDummyChild2
+      value: 
+      numVariants: 0
+      numChildren: 0
+    - name: Child2Variant1
+      value: 
+      numVariants: 0
+      numChildren: 1
+    - name: Child2Variant
+      value: 
+      numVariants: 0
+      numChildren: 1
+    - name: Child3
+      value: 
+      numVariants: 0
+      numChildren: 0
+    - name: Child3
+      value: 
+      numVariants: 0
+      numChildren: 0
+    - name: Dummy3
+      value: 
+      numVariants: 0
+      numChildren: 0
+    - name: Dummy
+      value: 
+      numVariants: 0
+      numChildren: 0
+    - name: Activation
+      value: O-O-O
+      numVariants: 0
+      numChildren: 0
+    - name: Position
+      value: TopLeft
+      numVariants: 0
+      numChildren: 0
+    - name: FontSize
+      value: 0
+      numVariants: 0
+      numChildren: 0
+    - name: PromptFontSize
+      value: 0
+      numVariants: 0
+      numChildren: 0
+    - name: PromptPosition
+      value: BottomLeft
+      numVariants: 0
+      numChildren: 0
+    - name: PromptActivation
+      value: O-O-O
+      numVariants: 0
+      numChildren: 0
+    - name: SearchPath
+      value: .
+      numVariants: 0
+      numChildren: 0
+    - name: Scenes
+      value: 
+      numVariants: 1
+      numChildren: 0
+    - name: BuildPath
+      value: 
+      numVariants: 0
+      numChildren: 0
+    - name: 0
+      value: e43934d8cfb594260befa802e5a75cf5
+      numVariants: 0
+      numChildren: 0
+    - name: Dummy
+      value: 
+      numVariants: 0
+      numChildren: 0
+    - name: OverrideVersion
+      value: 
+      numVariants: 0
+      numChildren: 0
+    - name: OverrideBuild
+      value: 
+      numVariants: 0
+      numChildren: 0
+    - name: VersionControl
+      value: yes
+      numVariants: 0
+      numChildren: 0
+    numNodes: 22
+  _buildTargets: 
