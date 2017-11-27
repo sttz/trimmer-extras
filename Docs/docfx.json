@@ -61,7 +61,12 @@
     ],
     "globalMetadata": {
       "_appLogoPath": "images/icon.svg",
-      "_appFooter": "© 2017 Adrian Stutz"
+      "_appFooter": "© 2017 Adrian Stutz",
+      "_gitContribute": {
+        "repo": "https://github.com/sttz/trimmer-extras",
+        "branch": "master",
+        "apiSpecFolder": "docs-ref-overwrite"
+      }
     },
     "dest": "_site",
     "globalMetadataFiles": [],
