@@ -8,3 +8,7 @@
     position: initial;
     left: 0;
 }
+
+.screenshots img {
+    max-width: 325px;
+}

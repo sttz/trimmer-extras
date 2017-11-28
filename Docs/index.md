@@ -22,12 +22,7 @@ In the editor, Trimmer provides a simple GUI interface to configure your Options
 * Create and build profiles with different setttings and features
 
 ### Screenshots
-<style>
-.screennshots img {
-    max-width: 325px;
-}
-</style>
-<span class="screennshots">
+<span class="screenshots">
 ![Build Profile](images/build_profile.png) 
 ![Editor Profile](images/editor_profile.png)
 </span>

@@ -4,5 +4,6 @@ Trimmer is mainly a Framework that lets you easily create your own Options but i
 * [OptionBuildSettings](bundled/build_settings.md)
 * [OptionIniFile](bundled/ini_file.md)
 * [OptionPrompt](bundled/prompt.md)
+* [OptionTrimmerServer](bundled/trimmer_server.md)
 * [OptionVersion](bundled/version.md)
 * [OptionXcode](bundled/xcode.md)

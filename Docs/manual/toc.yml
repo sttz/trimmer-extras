@@ -11,6 +11,8 @@
     href: bundled/ini_file.md
   - name: Prompt
     href: bundled/prompt.md
+  - name: Trimmer Server
+    href: bundled/trimmer_server.md
   - name: Version
     href: bundled/version.md
   - name: Xcode
