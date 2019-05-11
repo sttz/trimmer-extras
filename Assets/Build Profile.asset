@@ -3,7 +3,7 @@
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -11,49 +11,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d879b2c0889bc42ca8316c46eeecbed7, type: 3}
   m_Name: Build Profile
   m_EditorClassIdentifier: 
+  _buildTargets: 02000000
   store:
     serializedRootNodes:
-    - name: Dummy
-      value: no
-      numVariants: 0
-      numChildren: 0
-      inclusion: 0
-    - name: ParentDummy
-      value: no
-      numVariants: 0
-      numChildren: 2
-      inclusion: 0
-    - name: Prompt
-      value: yes
-      numVariants: 0
-      numChildren: 3
-      inclusion: 2
-    - name: EditModeDummy
-      value: no
-      numVariants: 0
-      numChildren: 0
-      inclusion: 0
-    - name: IniFile
-      value: wb.ini
-      numVariants: 0
-      numChildren: 1
-      inclusion: 2
-    - name: VariantDummy
-      value: 
-      numVariants: 6
-      numChildren: 0
-      inclusion: 0
-    - name: Simple
-      value: no
-      numVariants: 0
-      numChildren: 0
-      inclusion: 3
-    - name: BuildSettings
-      value: ShowBuiltPlayer
-      numVariants: 0
-      numChildren: 2
-      inclusion: 0
     - name: BuildOnlyDummy
+      value: no
+      numVariants: 0
+      numChildren: 0
+      inclusion: 0
+    - name: Dummy
       value: no
       numVariants: 0
       numChildren: 0
@@ -63,29 +29,80 @@ MonoBehaviour:
       numVariants: 0
       numChildren: 0
       inclusion: 0
-    - name: Version
-      value: yes
-      numVariants: 0
-      numChildren: 3
-      inclusion: 1
-    - name: Xcode
+    - name: ParentDummy
       value: no
       numVariants: 0
-      numChildren: 3
+      numChildren: 2
       inclusion: 0
     - name: Reference
       value: 1e6c5e43b343b4918a674c0f1aa22bf5
       numVariants: 0
       numChildren: 0
-      inclusion: 2
-    serializedNodes:
-    - name: ParentDummyChild2
-      value: 
-      numVariants: 1
+      inclusion: 0
+    - name: Simple
+      value: no
+      numVariants: 0
       numChildren: 0
+      inclusion: 0
+    - name: VariantDummy
+      value: 
+      numVariants: 6
+      numChildren: 0
+      inclusion: 0
+    - name: BuildSettings
+      value: ForceOptimizeScriptCompilation, Il2CPP, StripDebugSymbols, CompressTextures,
+        ShowBuiltPlayer
+      numVariants: 0
+      numChildren: 3
+      inclusion: 0
+    - name: IniFile
+      value: wb.ini
+      numVariants: 0
+      numChildren: 1
+      inclusion: 0
+    - name: Xcode
+      value: 
+      numVariants: 0
+      numChildren: 3
+      inclusion: 0
+    - name: Prompt
+      value: yes
+      numVariants: 0
+      numChildren: 3
+      inclusion: 0
+    - name: TrimmerServer
+      value: no
+      numVariants: 0
+      numChildren: 2
+      inclusion: 0
+    - name: Version
+      value: 
+      numVariants: 0
+      numChildren: 4
+      inclusion: 0
+    - name: EditModeDummy
+      value: no
+      numVariants: 0
+      numChildren: 0
+      inclusion: 0
+    - name: KeyStore
+      value: 
+      numVariants: 0
+      numChildren: 5
+      inclusion: 0
+    - name: AndroidArchitecture
+      value: None
+      numVariants: 0
+      numChildren: 0
+      inclusion: 0
+    serializedNodes:
     - name: ParentDummyChild1
       value: 
       numVariants: 0
+      numChildren: 0
+    - name: ParentDummyChild2
+      value: 
+      numVariants: 1
       numChildren: 0
     - name: Child2Variant
       value: 
@@ -105,22 +122,6 @@ MonoBehaviour:
       numChildren: 0
     - name: Default
       value: 
-      numVariants: 0
-      numChildren: 0
-    - name: PromptActivation
-      value: O-O-O
-      numVariants: 0
-      numChildren: 0
-    - name: PromptPosition
-      value: BottomLeft
-      numVariants: 0
-      numChildren: 0
-    - name: PromptFontSize
-      value: 0
-      numVariants: 0
-      numChildren: 0
-    - name: SearchPath
-      value: .
       numVariants: 0
       numChildren: 0
     - name: Dummy
@@ -155,20 +156,16 @@ MonoBehaviour:
       value: 
       numVariants: 1
       numChildren: 0
+    - name: SaveBuildInfo
+      value: yes
+      numVariants: 0
+      numChildren: 0
     - name: 0
       value: 
       numVariants: 0
       numChildren: 0
-    - name: OverrideVersion
-      value: 
-      numVariants: 0
-      numChildren: 0
-    - name: OverrideBuild
-      value: 
-      numVariants: 0
-      numChildren: 0
-    - name: VersionControl
-      value: yes
+    - name: SearchPath
+      value: .
       numVariants: 0
       numChildren: 0
     - name: ForceDisableRemoteNotifications
@@ -183,5 +180,60 @@ MonoBehaviour:
       value: no
       numVariants: 0
       numChildren: 0
-    numNodes: 13
-  _buildTargets: 02000000
+    - name: PromptFontSize
+      value: 0
+      numVariants: 0
+      numChildren: 0
+    - name: PromptPosition
+      value: BottomLeft
+      numVariants: 0
+      numChildren: 0
+    - name: PromptActivation
+      value: O-O-O
+      numVariants: 0
+      numChildren: 0
+    - name: ServerPort
+      value: 21076
+      numVariants: 0
+      numChildren: 0
+    - name: Discoverable
+      value: yes
+      numVariants: 0
+      numChildren: 0
+    - name: OverrideVersion
+      value: 
+      numVariants: 0
+      numChildren: 0
+    - name: OverrideBuild
+      value: 
+      numVariants: 0
+      numChildren: 0
+    - name: VersionControl
+      value: yes
+      numVariants: 0
+      numChildren: 0
+    - name: ApplyToProduct
+      value: no
+      numVariants: 0
+      numChildren: 0
+    - name: StorePath
+      value: 
+      numVariants: 0
+      numChildren: 0
+    - name: Alias
+      value: 
+      numVariants: 0
+      numChildren: 0
+    - name: UseKeychain
+      value: no
+      numVariants: 0
+      numChildren: 0
+    - name: StorePassword
+      value: 
+      numVariants: 0
+      numChildren: 0
+    - name: AliasPassword
+      value: 
+      numVariants: 0
+      numChildren: 0
+    numNodes: 16
