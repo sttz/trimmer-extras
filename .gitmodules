@@ -1,4 +1,4 @@
-[submodule "Assets/Trimmer"]
-	path = Assets/Trimmer
+[submodule "Trimmer"]
+	path = Packages/ch.sttz.trimmer
 	url = https://github.com/sttz/trimmer.git
 	branch = master
