@@ -33,4 +33,4 @@ In the editor, Trimmer provides a simple GUI interface to configure your Options
 * [Bundled Options](manual/bundled_options.md)
 
 ### License
-Trimmer is licensed under the GPLv3. A commercial license will be available later on the Unity Asset Store.
+Trimmer is licensed under the MIT license.
