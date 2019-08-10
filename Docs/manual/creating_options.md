@@ -229,10 +229,10 @@ Use the [CapabilitiesAttribute](xref:sttz.Trimmer.CapabilitiesAttribute) and [Op
 ### Flags
 
 * [HasAssociatedFeature](xref:sttz.Trimmer.OptionCapabilities.HasAssociatedFeature)<br>
-  Indicates the Option has an assoiated feature. This sets an additional conditional compliation symbol and shows additional options in the Build Profile editor. See [Associated Feature](#associated-feature) for more information.
+  Indicates the Option has an associated feature. This sets an additional conditional compilation symbol and shows additional options in the Build Profile editor. See [Associated Feature](#associated-feature) for more information.
 
 * [CanIncludeOption](xref:sttz.Trimmer.OptionCapabilities.CanIncludeOption)<br>
-  Indicates the Option can be included in builds. If this capability is not set, the Option will allways be removed from builds (e.g. Options that only work in the editor like a build postprocessor Option).
+  Indicates the Option can be included in builds. If this capability is not set, the Option will always be removed from builds (e.g. Options that only work in the editor like a build post-processor Option).
 
 * [ConfiguresBuild](xref:sttz.Trimmer.OptionCapabilities.ConfiguresBuild)<br>
   Indicates the Option will interact with the build process. If this capability is not set, the build callbacks will not be called.

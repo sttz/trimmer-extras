@@ -13,7 +13,7 @@ The Trimmer server and client communicate using a simple TCP protocol to allow c
 Include and enable the *Trimmer Server* Option in a Build Profile. Then open the Client in the Unity Editor from the *Window » Trimmer » Client* menu.
 
 <span class="screenshots">
-![Trimmer Clinet](../../images/trimmer_client.png)
+![Trimmer Client](../../images/trimmer_client.png)
 </span>
 
 If you use the default port and enabled *Discoverable* in the build profile, running servers on the local network should appear automatically in the drop down menu. Otherwise you can add servers manually using a host name or ip address and port. Select a server from the drop down to connect to it and then enter commands in the prompt at the bottom.

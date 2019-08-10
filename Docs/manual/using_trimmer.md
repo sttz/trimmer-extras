@@ -11,7 +11,7 @@ Your project can contain multiple *[Build Profiles](#build-profiles)*. A Build P
 There's a single *Active Build Profile*. You can activate a Build Profile by selecting it in the project and then choosing *Activate Profile* from its gear menu in the Inspector. Once a Build Profile has been activated, you can quickly open it using *⌘⌥B* on Mac or *Ctrl-Alt-B* on Windows. The active Build Profile is used for regular Unity builds started from the build window or the build menu commands.
 
 ## Options
-Options are the basic bulding blocks of Trimmer, each Option allows you to configure an aspect of your project. Each profile shows you all Options that exist in your project as top-level entries. Options can have variants and children, which can be shown by expanding the option in the profile.
+Options are the basic building blocks of Trimmer, each Option allows you to configure an aspect of your project. Each profile shows you all Options that exist in your project as top-level entries. Options can have variants and children, which can be shown by expanding the option in the profile.
 
 Trimmer detects all Option classes in your project. You don't need to configure anything besides dropping the Option files into your project and Trimmer will automatically detect them. To remove an Option, simply delete its file.
 
@@ -28,7 +28,7 @@ By default, it will not save changes made to Options while playing, meaning it w
 
 Unlike Build Profiles, the Editor Profile does not include check boxes to set wether to include options in the build. All options are always available in the editor. Options that have neither the [CanPlayInEditor](xref:sttz.Trimmer.OptionCapabilities.CanPlayInEditor) or [ExecuteInEditMode](xref:sttz.Trimmer.OptionCapabilities.ExecuteInEditMode) capability are not displayed in the Editor Profile.
 
-Instead of using the Editor Profile's internal configuration, it's also possible to choose a Build Profile as source for the configuration used in the editor. Use the drop down at the top of the Editor Profile and choose «Editor» for the internal configuration or any other Build Profile in your project to use that profile's configuration. Note that when you've selected another profile, you can no longer edit the Options directly in the Editor Profile and you need to swtich to the selected Build Profile to edit them.
+Instead of using the Editor Profile's internal configuration, it's also possible to choose a Build Profile as source for the configuration used in the editor. Use the drop down at the top of the Editor Profile and choose «Editor» for the internal configuration or any other Build Profile in your project to use that profile's configuration. Note that when you've selected another profile, you can no longer edit the Options directly in the Editor Profile and you need to switch to the selected Build Profile to edit them.
 
 Besides testing Build Profiles in the editor, this also allows to create configuration profiles, i.e. Build Profiles that are only used as a configuration preset for use in the editor. You can e.g. set up a debugging profile to quickly enable a set of debugging options in the editor.
 

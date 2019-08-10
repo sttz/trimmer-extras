@@ -27,4 +27,4 @@ The Option supports a set of variables in the path that will be expanded:
 
 ### Scenes
 
-The list of scenes to include in the build. Leave this emtpy to use the default list set in Unity's Build Settings.
+The list of scenes to include in the build. Leave this empty to use the default list set in Unity's Build Settings.

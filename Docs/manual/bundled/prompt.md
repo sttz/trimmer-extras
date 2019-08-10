@@ -16,7 +16,7 @@ Enable or disable the prompt.
 
 ### Prompt Font Size
 
-Set the font size of the prompt. `0` uses Uniy's default font size.
+Set the font size of the prompt. `0` uses Unity's default font size.
 
 ### Prompt Position
 
@@ -24,4 +24,4 @@ The position of the prompt on the screen.
 
 ### Prompt Activation
 
-The activation sequence to open the prompt. The user needs to press the keys in the sequence in order without pressing any other key in-between. The keys are separted by a dash and the key names are taken from Unity's [KeyCode](https://docs.unity3d.com/ScriptReference/KeyCode.html) enumeration.
+The activation sequence to open the prompt. The user needs to press the keys in the sequence in order without pressing any other key in-between. The keys are separated by a dash and the key names are taken from Unity's [KeyCode](https://docs.unity3d.com/ScriptReference/KeyCode.html) enumeration.

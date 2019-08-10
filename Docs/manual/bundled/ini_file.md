@@ -31,7 +31,7 @@ The name of the ini file to be loaded. Does not need to have an ini extension (e
 
 ### Search Path
 
-The paths that will be searched for the ini file. Paths should be separted by `;` and will be searched in order until a matching file has been found. Only the first file found will be loaded.
+The paths that will be searched for the ini file. Paths should be separated by `;` and will be searched in order until a matching file has been found. Only the first file found will be loaded.
 
 The path supports a few variables that will be expanded:
 * `%DataPath%`: Will be replaced by [Application.dataPath](https://docs.unity3d.com/ScriptReference/Application-dataPath.html)
