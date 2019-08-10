@@ -3,9 +3,10 @@
     {
       "src": [
         {
-          "src": "../Assets/Trimmer",
+          "src": "..",
           "files": [
-            "**.cs"
+            "Trimmer.csproj",
+            "Trimmer-Editor.csproj"
           ],
           "exclude": [
             "**/obj/**",
@@ -14,7 +15,11 @@
           ]
         }
       ],
-      "dest": "obj/temp/api"
+      "dest": "obj/temp/api",
+      "properties": {
+        "DefineConstants": "UNITY_2019_2_0;UNITY_2019_2;UNITY_2019;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;NET_4_6;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER"
+      },
+      "filter": "filterConfig.yml"
     }
   ],
   "build": {
