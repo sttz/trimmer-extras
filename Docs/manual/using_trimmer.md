@@ -15,6 +15,26 @@ Options are the basic building blocks of Trimmer, each Option allows you to conf
 
 Trimmer detects all Option classes in your project. You don't need to configure anything besides dropping the Option files into your project and Trimmer will automatically detect them. To remove an Option, simply delete its file.
 
+### Options and Features
+
+Trimmer distinguishes between Options and Features. Options are the classes you write to configure an aspect of your project with Trimmer. Features are these aspects and what exactly they are can vary from Option to Option.
+
+Features are an abstract concept used during the build process to allow including/excluding a feature independent of its Option.
+
+Take a SteamOption as an example: Your project contains a Steam API integration and a SteamOption that allows to enable or disable the Steam integration. There are three different types of builds you might want to make:
+* *Option and Feature:*
+  This build includes both the Steam integration as well as the Option to enable/disable it. This is great for debug builds, where you could include multiple integrations and enable the one you need.
+* *Feature only*:
+  This build only includes the Steam integration. The Steam integration is built-in, the Option to configure it has been compiled out and the integration cannot be disabled.
+* *Without Feature*:
+  This build does not include the Steam integration. The integration has been compiled out and cannot be enabled. The Option is never included in this case.
+
+Options can define if they themselves can be included in builds and/or if they have a feature that can be included or removed. The Build Profile UI only enables the configurations that an Option supports.
+
+Take a RunInBackgroundOption as another example: The Option configures Unity's `Application.runInBackground` setting to make the game run when it doesn't have focus. This Option doesn't have a feature, since the setting is build into Unity and cannot be removed. You can only include/exclude the Option in the Build Profile, the feature is greyed out.
+
+Or take a ObfuscateOption: The Option processes the build and obfuscates the .Net assemblies. This Option can only be used during the build and cannot be included in the build itself. You can only include/exclude the feature in the Build Profile to enable/disable the obfuscation, including the Option is greyed out.
+
 ## Editor Profile
 The Editor Profile can be opened using *Window » Editor Profile* or by using the shortcut *⌘E* on Mac or *Ctrl-E* on Windows.
 
